@@ -1,8 +1,17 @@
-/* Reseteo básico */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
 }
 
 .top-bar {
@@ -12,7 +21,6 @@
     padding: 10px 20px;
     font-size: 14px;
     background-color: #f8f8f8;
-    
 }
 
 .menu-icon {
@@ -45,6 +53,7 @@
     align-items: center;
     padding: 15px 20px;
     background-color: white;
+    
 }
 
 .header-main h1 {
@@ -55,17 +64,79 @@
 
 .directo {
     font-family: serif;
-    font-size: 28px;
+    font-size: 30px;
     color: #b00;
 
 }
 
+.auth-buttons {
+    display: flex;
+}
 
-/* Estilos generales */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+.auth-buttons button {
+    margin-left: 10px; /* Espacio entre botones */
+}
+
+.subscribe, .sign-in {
+    padding: 8px 12px;
+    border: none;
+    font-size: 14px;
+}
+
+.subscribe {
+    background-color: #ffd700;
     color: #333;
+}
+
+.sign-in {
+    background-color: #333;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.ad-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.news-container {
+    display: flex;
+    margin-top: 20px; /* Espacio superior en el contenedor de noticias */
+}
+
+.main-article {
+    flex: 2;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-right: 20px; /* Espacio entre main-article y latest-news */
+}
+
+.main-article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main-article h2 {
+    font-size: 20px;
+    color: #b00;
+    margin-bottom: 10px;
+}
+
+.main-article p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.main-article .time {
+    font-size: 12px;
+    color: #555;
 }
 
 header {
@@ -150,7 +221,7 @@ nav ul li a {
 a {
     color: #003366;
     text-decoration: none;
-    font-weight: bold;
+    
 }
 
 a:hover {
