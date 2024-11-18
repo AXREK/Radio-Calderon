@@ -38,7 +38,9 @@ header {
 .main-nav a {
     color: #333;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 24px;
+    font-family: serif;
+    
     margin-right: 15px; /* Espacio entre enlaces del menú */
 }
 
@@ -52,12 +54,20 @@ header {
     align-items: center;
     padding: 15px 20px;
     background-color: white;
+    
 }
 
 .header-main h1 {
     font-family: serif;
     font-size: 28px;
     color: #b00;
+}
+
+.directo {
+    font-family: serif;
+    font-size: 30px;
+    color: #b00;
+
 }
 
 .auth-buttons {
@@ -155,4 +165,24 @@ header {
 .latest-news .category {
     color: #888;
     font-weight: bold;
+}
+
+#titulopp{
+    flex-grow: 5;
+    margin-left: 10px;
+    margin-right: 500px;
+}
+
+.hiperpp{
+    padding: 10px;
+}
+
+.hiperpp2{
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #b00;
+    color: white;
 }
