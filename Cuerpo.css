@@ -121,6 +121,7 @@ header {
 .main-article img {
    object-position: center;
     margin-bottom: 10px;
+    border-radius: 50;                                                                                                                                                                      
 }
 
 .main-article h2 {
@@ -135,7 +136,7 @@ header {
 }
 
 .main-article .time {
-    font-size: 12px;
+    font-size: 25px;
     color: #555;
 }
 
@@ -184,4 +185,8 @@ header {
 a:hover{
     background-color: #b00;
     color: white;
+}
+
+p {
+    font-size: 20px;
 }
