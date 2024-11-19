@@ -255,3 +255,16 @@ a:hover{
     background-color: #b00;
     color: white;
 }
+
+footer {
+    text-align: center;
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 16px 0;
+    margin-top: 32px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14.4px;
+}

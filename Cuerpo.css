@@ -1,4 +1,3 @@
-/* Estilos básicos de la página */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +8,7 @@ body {
     background-color: #f5f5f5;
     color: #333;
 }
+
 
 header {
     background-color: white;
@@ -40,7 +40,6 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-family: serif;
-    
     margin-right: 15px; /* Espacio entre enlaces del menú */
 }
 
@@ -67,7 +66,6 @@ header {
     font-family: serif;
     font-size: 30px;
     color: #b00;
-
 }
 
 .auth-buttons {
@@ -94,6 +92,7 @@ header {
     color: white;
 }
 
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -101,7 +100,7 @@ header {
 }
 
 .ad-banner img {
-    width: 100px;
+    width: 80%;
     height: auto;
 }
 
@@ -115,7 +114,7 @@ header {
     background-color: white;
     padding: 20px;
     border: 1px solid #ddd;
-    margin-right: 20px; /* Espacio entre main-article y latest-news */
+    margin-right: 22px; /* Espacio entre main-article y latest-news */
 }
 
 .main-article img {
@@ -144,7 +143,6 @@ header {
     background-color: white;
     padding: 20px;
     border: 1px solid #ddd;
-    flex-grow: 4;
 }
 
 .latest-news h3 {
@@ -167,22 +165,23 @@ header {
     font-weight: bold;
 }
 
-#titulopp{
+
+#titulopp {
     flex-grow: 5;
     margin-left: 10px;
     margin-right: 100px;
 }
 
-.hiperpp{
+.hiperpp {
     padding: 10px;
 }
 
-.hiperpp2{
+.hiperpp2 {
     padding: 10px;
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     background-color: #b00;
     color: white;
 }
