@@ -47,6 +47,16 @@ header {
     margin-right: 0; /* Sin margen derecho en el último enlace */
 }
 
+.directo {
+    background-color: #d71414;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.directo:hover {
+    background-color: #d71414;
+}
+
 .header-main {
     display: flex;
     justify-content: space-between;
