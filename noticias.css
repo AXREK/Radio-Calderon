@@ -236,3 +236,22 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+#titulopp{
+    flex-grow: 5;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+.hiperpp{
+    padding: 10px;
+}
+
+.hiperpp2{
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover{
+    background-color: #b00;
+    color: white;
+}

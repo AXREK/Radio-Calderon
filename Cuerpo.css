@@ -101,7 +101,7 @@ header {
 }
 
 .ad-banner img {
-    width: 80%;
+    width: 100px;
     height: auto;
 }
 
@@ -115,7 +115,7 @@ header {
     background-color: white;
     padding: 20px;
     border: 1px solid #ddd;
-    margin-right: 22px; /* Espacio entre main-article y latest-news */
+    margin-right: 20px; /* Espacio entre main-article y latest-news */
 }
 
 .main-article img {
@@ -144,6 +144,7 @@ header {
     background-color: white;
     padding: 20px;
     border: 1px solid #ddd;
+    flex-grow: 4;
 }
 
 .latest-news h3 {
