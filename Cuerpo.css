@@ -55,6 +55,7 @@ header {
 
 .directo:hover {
     background-color: #d71414;
+    color: white;
 }
 
 .header-main {
@@ -191,9 +192,8 @@ header {
     font-weight: bold;
 }
 
-a:hover {
-    background-color: #b00;
-    color: white;
+a:hover{
+    color: rgb(236, 9, 9);
 }
 
 footer {

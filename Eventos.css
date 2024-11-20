@@ -10,15 +10,11 @@ body {
     line-height: 1.6;
     background-color: #eeeeee;
     color: #333;
-    padding: 20px;
 }
 
 header {
-    background-color: #5653e6;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-bottom: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
 }
 
 #titulopp {
@@ -43,22 +39,20 @@ header {
     cursor: pointer;
 }
 
+.main-nav {
+    display: flex;
+}
+
 .main-nav a {
-    color: #333; 
+    color: #333;
     text-decoration: none;
     font-size: 24px;
     font-family: serif;
-    margin-right: 15px; 
+    margin-right: 15px; /* Espacio entre enlaces del menú */
 }
 
-.main-nav a.inicio {
-    color: red; 
-    background-color: transparent; 
-}
-
-.main-nav a:hover {
-    background-color: transparent; 
-    color: red; 
+.main-nav a:last-child {
+    margin-right: 0; /* Sin margen derecho en el último enlace */
 }
 
 .header-main {
@@ -77,12 +71,6 @@ header {
 }
 
 .directo {
-    font-family: serif;
-    font-size: 30px;
-    color: #b00;
-}
-
-.directo {
     background-color: #d71414;
     padding: 2px;
     border-radius: 5px;
@@ -90,6 +78,7 @@ header {
 
 .directo:hover {
     background-color: #d71414;
+    color: white;
 }
 .auth-buttons {
     display: flex;
@@ -123,8 +112,7 @@ header {
 }
 
 a:hover{
-    background-color: #b00;
-    color: white;
+    color: rgb(236, 9, 9);
 }
 
 footer {

@@ -39,7 +39,6 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-family: serif;
-    
     margin-right: 15px; /* Espacio entre enlaces del menú */
 }
 
@@ -61,9 +60,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 20px 20px;
     background-color: white;
-    
+    font-size:24px;
 }
 
 .header-main h1 {
@@ -127,27 +126,7 @@ header {
     margin-right: 20px; /* Espacio entre main-article y latest-news */
 }
 
-.main-article img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
 
-.main-article h2 {
-    font-size: 20px;
-    color: #b00;
-    margin-bottom: 10px;
-}
-
-.main-article p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.main-article .time {
-    font-size: 12px;
-    color: #555;
-}
 
 header {
     background-color: #003366;
@@ -234,10 +213,6 @@ a {
     
 }
 
-a:hover {
-    text-decoration: underline;
-}
-
 /* Estilos de footer */
 footer {
     background-color: #003366;
@@ -261,9 +236,8 @@ footer {
     font-weight: bold;
 }
 
-a:hover{
-    background-color: #b00;
-    color: white;
+a:hover{  
+    color: rgb(236, 9, 9);
 }
 
 footer {
