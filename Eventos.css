@@ -1,13 +1,10 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #eeeeee;
     color: #333;
 }
@@ -15,12 +12,6 @@ body {
 header {
     background-color: white;
     border-bottom: 1px solid #ddd;
-}
-
-#titulopp {
-    flex-grow: 5;
-    margin-left: 10px;
-    margin-right: 100px;
 }
 
 .top-bar {
@@ -55,6 +46,7 @@ header {
     margin-right: 0; /* Sin margen derecho en el último enlace */
 }
 
+
 .header-main {
     display: flex;
     justify-content: space-between;
@@ -71,6 +63,12 @@ header {
 }
 
 .directo {
+    font-family: serif;
+    font-size: 30px;
+    color: #b00;
+}
+
+.directo {
     background-color: #d71414;
     padding: 2px;
     border-radius: 5px;
@@ -80,6 +78,7 @@ header {
     background-color: #d71414;
     color: white;
 }
+
 .auth-buttons {
     display: flex;
 }
@@ -104,6 +103,11 @@ header {
     color: white;
 }
 
+#titulopp{
+    flex-grow: 5;
+    margin-left: 10px;
+    margin-right: 100px;
+}
 
 .main-content {
     display: flex;
