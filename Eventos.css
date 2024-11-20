@@ -115,6 +115,17 @@ header {
     margin: 20px;
 }
 
+.banner {
+    background-color: #5653e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+
+
+
 a:hover{
     color: rgb(236, 9, 9);
 }
