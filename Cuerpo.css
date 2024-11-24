@@ -209,3 +209,125 @@ footer p {
     font-size: 14.4px;
 }
 
+/* Pantallas pequeñas (teléfonos) */
+@media (max-width: 600px) {
+    .main-nav a {
+        font-size: 18px;
+        margin-right: 10px; /* Reducir espacio entre enlaces */
+    }
+
+    .evento {
+        width: 100%; /* Los eventos ocuparán el ancho completo */
+        padding: 10px;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+}
+
+/* Diseño responsivo para pantallas móviles (máximo 600px) */
+@media (max-width: 600px) {
+    .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .auth-buttons button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .header-main {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .main-nav a {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .main-content {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .news-container {
+        flex-direction: column;
+    }
+
+    .main-article {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .main-article img {
+        width: 100%;
+    }
+
+    .latest-news ul {
+        padding: 0;
+    }
+
+    .latest-news img {
+        width: 100%;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
+
+/* Diseño para pantallas grandes (mínimo 1024px) */
+@media (min-width: 1024px) {
+    .header-main {
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
+
+    .main-nav a {
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
+    .main-content {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 50px;
+    }
+
+    .news-container {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .main-article img {
+        width: 100%;
+        max-width: 900px;
+    }
+
+    .latest-news ul {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 20px 0;
+        font-size: 16px;
+    }
+}

@@ -209,9 +209,85 @@ main {
     text-decoration: underline;
   }
 
+  @media (max-width: 600px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .main-nav a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
 
+    .auth-buttons button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
 
+    .header-main {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .header-main h1 {
+        font-size: 20px;
+    }
 
-/* Pantallas pequeñas (teléfonos) */
+    .banner-container h1 {
+        font-size: 24px;
+    }
+
+    .Contenidos {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .card {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card-content h3 {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 12px;
+    }
+}
+
+/* Pantallas grandes (PC, desde 901px en adelante) */
+@media (min-width: 901px) {
+    .main-nav a {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .header-main h1 {
+        font-size: 32px;
+    }
+
+    .banner-container h1 {
+        font-size: 28px;
+    }
+
+    .Contenidos {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        max-width: 300px;
+        flex: 1 1 calc(33% - 20px); /* Tres tarjetas por fila con espacio entre ellas */
+        margin: 10px;
+    }
+
+    .card-content h3 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+}
