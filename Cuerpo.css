@@ -176,6 +176,11 @@ header {
     font-weight: bold;
 }
 
+.latest-news img {
+    object-position: center;
+    height: auto;
+}
+
 
 #titulopp {
     flex-grow: 5;
