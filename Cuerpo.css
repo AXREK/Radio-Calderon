@@ -130,18 +130,22 @@ header {
 
 .main-article img {
    object-position: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
 }
 
 .main-article h2 {
     font-size: 20px;
     color: #b00;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .main-article p {
     font-size: 14px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .main-article .time {
@@ -178,7 +182,8 @@ header {
 
 .latest-news img {
     object-position: center;
-    height: auto;
+    height: 180px;
+    width: auto;
 }
 
 
