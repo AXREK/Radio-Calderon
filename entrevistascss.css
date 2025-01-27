@@ -39,13 +39,12 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-family: serif;
-    margin-right: 15px; /* Espacio entre enlaces del menú */
+    margin-right: 15px;
 }
 
 .main-nav a:last-child {
-    margin-right: 0; /* Sin margen derecho en el último enlace */
+    margin-right: 0;
 }
-
 
 .header-main {
     display: flex;
@@ -53,7 +52,7 @@ header {
     align-items: center;
     padding: 20px 20px;
     background-color: white;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .header-main h1 {
@@ -84,7 +83,7 @@ header {
 }
 
 .auth-buttons button {
-    margin-left: 10px; /* Espacio entre botones */
+    margin-left: 10px;
 }
 
 .subscribe, .sign-in {
@@ -116,7 +115,7 @@ header {
 
 .news-container {
     display: flex;
-    margin-top: 20px; /* Espacio superior en el contenedor de noticias */
+    margin-top: 20px;
 }
 
 .main-article {
@@ -124,7 +123,7 @@ header {
     background-color: white;
     padding: 20px;
     border: 1px solid #ddd;
-    margin-right: 22px; /* Espacio entre main-article y latest-news */
+    margin-right: 22px;
 }
 
 .main-article img {
@@ -134,7 +133,7 @@ header {
 }
 
 .main-article h2 {
-    font-size: 20px;
+    font-size: 24px;
     color: #b00;
     margin-bottom: 10px;
 }
@@ -149,22 +148,22 @@ header {
     color: #555;
 }
 
-#titulopp{
+#titulopp {
     flex-grow: 5;
     margin-left: 10px;
     margin-right: 100px;
 }
 
-.hiperpp{
+.hiperpp {
     padding: 10px;
 }
 
-.hiperpp2{
+.hiperpp2 {
     padding: 10px;
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     color: rgb(236, 9, 9);
 }
 
@@ -180,7 +179,7 @@ footer p {
     margin: 0;
     font-size: 14.4px;
 }
- 
+
 .content {
     padding: 20px;
     max-width: 1000px;
@@ -202,7 +201,25 @@ footer p {
     color: #555;
 }
 
-/* Estilo para las entrevistas */
+.survey-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.survey-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.survey-button:hover {
+    background-color: #218838;
+}
+
 .interviews h2 {
     font-size: 32px;
     margin-bottom: 20px;
@@ -229,7 +246,6 @@ footer p {
     color: #333;
 }
 
-/* Sección de contacto */
 .contact {
     text-align: center;
     margin-top: 40px;
@@ -263,71 +279,4 @@ footer p {
 
 .directo:hover {
     background-color: #d71414;
-}
-@media (max-width: 600px) {
-    .header-main {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main-nav {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .main-nav a {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
-    .intro h2 {
-        font-size: 28px;
-    }
-
-    .intro p, 
-    .interviews article p, 
-    .contact p {
-        font-size: 16px;
-    }
-
-    .interviews article h3 {
-        font-size: 20px;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
-    .auth-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .auth-buttons button {
-        margin: 5px 0;
-    }
-}
-
-/* Media query for PC screens (larger than 900px) */
-@media (min-width: 901px) {
-    .header-main {
-        justify-content: space-between;
-    }
-
-    .main-nav a {
-        font-size: 20px;
-    }
-
-    .intro h2 {
-        font-size: 36px;
-    }
-
-    .interviews article h3 {
-        font-size: 24px;
-    }
-
-    .content {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
 }

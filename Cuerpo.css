@@ -9,7 +9,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: white;
     border-bottom: 1px solid #ddd;
@@ -40,13 +39,27 @@ header {
     text-decoration: none;
     font-size: 24px;
     font-family: serif;
-    margin-right: 15px; /* Espacio entre enlaces del menú */
+    margin-right: 15px;
 }
 
 .main-nav a:last-child {
-    margin-right: 0; /* Sin margen derecho en el último enlace */
+    margin-right: 0;
 }
 
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: white;
+    font-size: 24px;
+}
+
+.header-main h1 {
+    font-family: serif;
+    font-size: 28px;
+    color: #b00;
+}
 .directo {
     background-color: #d71414;
     padding: 2px;
@@ -64,7 +77,7 @@ header {
     align-items: center;
     padding: 20px 20px;
     background-color: white;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .header-main h1 {
@@ -74,17 +87,24 @@ header {
 }
 
 .directo {
-    font-family: serif;
-    font-size: 30px;
-    color: #b00;
 }
 
+.directo {
+    background-color: #d71414;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.directo:hover {
+    background-color: #d71414;
+    color: white;
+}
 .auth-buttons {
     display: flex;
 }
 
 .auth-buttons button {
-    margin-left: 10px; /* Espacio entre botones */
+    margin-left: 10px;
 }
 
 .subscribe, .sign-in {
@@ -103,6 +123,38 @@ header {
     color: white;
 }
 
+.hero-banner {
+    background: linear-gradient(90deg, #b00, #d32f2f);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.hero-banner h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-banner .listen-now {
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-banner .listen-now:hover {
+    background-color: #ffc107;
+}
 
 .main-content {
     display: flex;
@@ -117,7 +169,7 @@ header {
 
 .news-container {
     display: flex;
-    margin-top: 20px; /* Espacio superior en el contenedor de noticias */
+    margin-top: 20px;
 }
 
 .main-article {
@@ -125,11 +177,11 @@ header {
     background-color: white;
     padding: 20px;
     border: 1px solid #ddd;
-    margin-right: 22px; /* Espacio entre main-article y latest-news */
+    margin-right: 22px;
 }
 
 .main-article img {
-   object-position: center;
+    object-position: center;
     margin-bottom: 20px;
     width: auto;
     height: auto;
@@ -186,6 +238,33 @@ header {
     width: auto;
 }
 
+audio {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 16px 0;
+    margin-top: 32px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14.4px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 #titulopp {
     flex-grow: 5;
@@ -202,41 +281,11 @@ header {
     font-weight: bold;
 }
 
-a:hover{
+a:hover {
     color: rgb(236, 9, 9);
 }
 
-footer {
-    text-align: center;
-    background-color: #d32f2f;
-    color: #fff;
-    padding: 16px 0;
-    margin-top: 32px;
-}
-
-footer p {
-    margin: 0;
-    font-size: 14.4px;
-}
-
 /* Pantallas pequeñas (teléfonos) */
-@media (max-width: 600px) {
-    .main-nav a {
-        font-size: 18px;
-        margin-right: 10px; /* Reducir espacio entre enlaces */
-    }
-
-    .evento {
-        width: 100%; /* Los eventos ocuparán el ancho completo */
-        padding: 10px;
-    }
-
-    header, footer {
-        padding: 15px;
-    }
-}
-
-/* Diseño responsivo para pantallas móviles (máximo 600px) */
 @media (max-width: 600px) {
     .top-bar {
         flex-direction: column;
@@ -304,7 +353,7 @@ footer p {
     }
 }
 
-/* Diseño para pantallas grandes (mínimo 1024px) */
+/* Pantallas grandes (mínimo 1024px) */
 @media (min-width: 1024px) {
     .header-main {
         justify-content: space-between;
@@ -341,3 +390,4 @@ footer p {
         font-size: 16px;
     }
 }
+

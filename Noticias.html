@@ -10,27 +10,37 @@
         <div class="top-bar">
             <button class="menu-icon">&#9776;</button>
             <div class="auth-buttons">
-            
-                <button class="subscribe">Suscríbete</button>
-                <button class="sign-in">Inicia Sesión</button>
-                
+                <a href="Formulario.html"><button class="subscribe">Suscríbete</button></a>
+                <a href="https://aulavirtual33.educa.madrid.org/ies.calderon.pinto/login/index.php?loginredirect=1"><button class="sign-in">Inicia Sesión</button></a>
             </div>
         </div>
-        <div class="header-main">
-            <div id="logopp"><img src="Radiocalderon.png" width="50px" height="50px"></div>
-            <div id="titulopp"><h1> RADIO CALDERON </h1></div>
-            <div class="main-nav">
+        <header class="header-main">
+            <div id="logopp"><img src="Radiocalderon.png" width="50px" height="50px" alt="Radio Calderón Logo"></div>
+            <div id="titulopp"><h1>RADIO CALDERÓN</h1></div>
+            <nav class="main-nav">
                 <a href="Index.html">Inicio</a>
                 <a href="Noticias.html">Noticias</a>
                 <a href="Entrevistas.html">Entrevistas</a>
                 <a href="Eventos.html">Eventos</a>
                 <a class="directo" href="https://open.spotify.com/show/5AItSCEIF6zGFF01Yq0mZa">RADIO EN DIRECTO</a>   
-            </div>
-        </div>
+            </nav>
+        </header>
     </div>
 
-    <div id="noticias" > 
-        <h2>Últimas Noticias</h2>
+    <section id="podcast-section">
+        <h2>Podcast Destacado</h2>
+        <div class="podcast-card">
+            <img src="podcast-image.jpg" alt="Podcast Imagen" class="podcast-image">
+            <div class="podcast-info">
+                <h3>Episodio 1: La importancia de la radio escolar</h3>
+                <p>Escucha nuestro primer episodio donde hablamos sobre cómo la radio puede transformar la comunicación en las escuelas.</p>
+                <button class="play-btn">Reproducir</button>
+            </div>
+        </div>
+    </section>
+
+    <main id="noticias"> 
+                <h2>Últimas Noticias</h2>
 
         <div class="noticia">
             <img src="noticias1.png" alt="Noticia 1" width="300" height="200">
@@ -92,9 +102,15 @@
                 allow="autoplay">
             </iframe>
         </div>
-    </div>
+    </main>
+
     <footer>
-        <p>© Radio Calderón 2024</p>
+        <p>© Radio Calderón 2024 | Síguenos en redes sociales: 
+            <a href="https://twitter.com" target="_blank">Twitter</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a> |
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+        </p>
     </footer>
 </body>
 </html>
+
